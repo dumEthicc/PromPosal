@@ -1,0 +1,42 @@
+
+body {
+    background-color: #610000;
+    text-align: center;
+}
+
+.centered-and-resized-image {
+    display: block;
+    margin: 0 auto; /* This centers the image horizontally */
+    max-width: 55%; /* Adjust this value to make the image smaller */
+}
+
+.big-image {
+    width: 350px;
+}
+
+.big-text {
+    font-size: 48px; /* You can adjust the size as needed */
+}
+
+button {
+    color: white;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center; /* Center the buttons horizontally */
+    margin-bottom: 50px;
+}
+
+.button-container button {
+    font-size: 40px;
+    background-color: black;
+}
+
+.button-container button {
+    margin: 0 50px; /* Add space to the right of each button */
+}
+
+.hidden {
+    display: none;
+}
